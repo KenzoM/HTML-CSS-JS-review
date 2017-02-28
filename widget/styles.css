@@ -1,0 +1,32 @@
+body{
+  font-family: Arial, Helvetica;
+}
+
+#accordion{
+  background: #DDDDDD;
+  width: 300px;
+  padding: 10px;
+}
+
+.tab{
+  text-align: center;
+  background: rgb(122, 135, 221);
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 2px;
+  border: 1px solid white;
+  transition: background 1s ease-out
+}
+
+.tab:hover{
+  background: red;
+}
+
+.tab-content{
+  text-align: center;
+  border: 1px dashed black;
+  background: white;
+  padding: 5px;
+  margin: 5px;
+}
